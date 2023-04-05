@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/cards/static/css/main.c0e287e7.css",
-    "main.js": "/cards/static/js/main.3877a0f9.js",
+    "main.css": "/cards/static/css/main.7aa2d028.css",
+    "main.js": "/cards/static/js/main.0c3d3821.js",
     "static/js/787.8517b185.chunk.js": "/cards/static/js/787.8517b185.chunk.js",
     "static/media/404.svg": "/cards/static/media/404.d1e1632e390ff2517b662985bf2e997b.svg",
+    "static/media/flash_logo.png": "/cards/static/media/flash_logo.1f41babe625606014c4c.png",
     "static/media/checkEmail.svg": "/cards/static/media/checkEmail.cdfba66fde5a43fa07de20848a33be02.svg",
+    "static/media/confetti.svg": "/cards/static/media/confetti.51c9a0ed07c4a4a198418dfa866fbc1d.svg",
     "static/media/trash.svg": "/cards/static/media/trash.b791b8fa7991d0e4e9535dd5338d2caa.svg",
     "static/media/edit-2.svg": "/cards/static/media/edit-2.5ff1b2254660c240185990abc92201c9.svg",
     "static/media/edit_name.svg": "/cards/static/media/edit_name.a169cd90c950b39da314c5bb65c8ed51.svg",
@@ -14,14 +16,15 @@
     "static/media/profile_logout.svg": "/cards/static/media/profile_logout.4631dbd136b384a8118857f16dae43d5.svg",
     "static/media/user.svg": "/cards/static/media/user.80fa9754947dabe414f5181c7b26bc2c.svg",
     "static/media/closeIcon.svg": "/cards/static/media/closeIcon.47159591103829ef3885caae41e0490f.svg",
+    "static/media/info.svg": "/cards/static/media/info.3cfeb2e74bee0959a4a6753e9f851386.svg",
     "static/media/vector.svg": "/cards/static/media/vector.19c7bd8ee7d32ca8451f1de3f6803354.svg",
     "static/media/arrow_down.svg": "/cards/static/media/arrow_down.fea3ba07db5a1e87b16c9acd04731f72.svg",
-    "main.c0e287e7.css.map": "/cards/static/css/main.c0e287e7.css.map",
-    "main.3877a0f9.js.map": "/cards/static/js/main.3877a0f9.js.map",
+    "main.7aa2d028.css.map": "/cards/static/css/main.7aa2d028.css.map",
+    "main.0c3d3821.js.map": "/cards/static/js/main.0c3d3821.js.map",
     "787.8517b185.chunk.js.map": "/cards/static/js/787.8517b185.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0e287e7.css",
-    "static/js/main.3877a0f9.js"
+    "static/css/main.7aa2d028.css",
+    "static/js/main.0c3d3821.js"
   ]
 }
