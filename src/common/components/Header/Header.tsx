@@ -42,7 +42,7 @@ export const Header = () => {
                 sx={{ display: 'flex', alignItems: 'center', gap: '10px', flexGrow: 1, color: 'black' }}
               >
                 Flash Cards
-                <Avatar sx={{ width: 50, height: 50 }} src={flashLogo} alt="Flash cards logo" />
+                <Avatar sx={{ width: 40, height: 40 }} src={flashLogo} alt="Flash cards logo" />
               </Typography>
               {isLoggedIn ? (
                 <Typography
