@@ -9,10 +9,10 @@
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.11",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@types/react-redux": "^7.1.25",
@@ -29,8 +29,9 @@
     "redux-persist": "^6.0.0",
     "redux-persist-transform-filter": "^0.0.22",
     "redux-thunk": "^2.4.2",
-    "sass": "^1.58.3",
-    "web-vitals": "^2.1.0",
+    "sass": "^1.61.0",
+    "web-vitals": "^3.3.1",
+    "yarn": "^1.22.19",
     "yup": "^1.0.2"
   },
   "scripts": {
@@ -72,10 +73,10 @@
     "prettier": "^2.7.1",
     "prettier-config-it-incubator": "^1.0.1",
     "prettier-stylelint": "^0.4.2",
-    "stylelint": "^14.10.0",
-    "stylelint-config-clean-order": "^0.9.0",
-    "stylelint-prettier": "^2.0.0",
-    "tsconfig-paths": "^3.14.2",
-    "typescript": "^4.4.2"
+    "stylelint": "^15.4.0",
+    "stylelint-config-clean-order": "^5.0.1",
+    "stylelint-prettier": "^3.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.3"
   }
 }
