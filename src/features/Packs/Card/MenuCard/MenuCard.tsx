@@ -16,9 +16,10 @@ type MenuPropsType = {
   packPrivate: boolean
   packId: string
   packDeckCover: string
+  isEmptyPack: boolean
 }
 export const MenuCard: React.FC<MenuPropsType> = React.memo(
-  ({ anchorEl, setAnchorEl, redirectToLearn, packName, packPrivate, packId, packDeckCover }) => {
+  ({ anchorEl, setAnchorEl, redirectToLearn, packName, packPrivate, packId, packDeckCover, isEmptyPack }) => {
     const open = Boolean(anchorEl)
     const navigate = useNavigate()
     const closeHandler = () => {
@@ -73,7 +74,7 @@ export const MenuCard: React.FC<MenuPropsType> = React.memo(
             packName={packName}
             menuName="Delete"
           />
-          <MenuItem onClick={redirectToLearn}>
+          <MenuItem disabled={isEmptyPack} onClick={redirectToLearn}>
             <ListItemIcon>
               <img src={learn} alt="learn icon" />
             </ListItemIcon>

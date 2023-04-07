@@ -60,6 +60,8 @@ export const Cards = () => {
   const isMyPack = userId === packUserId
   const isEmptyPack = !cards.length
 
+  console.log('asda ' + isEmptyPack)
+
   useEffect(() => {
     packId && dispatch(getCards(packId))
   }, [page, pageCount, sort, search])
@@ -101,6 +103,7 @@ export const Cards = () => {
             packId={packId}
             redirectToLearn={redirectToLearnHandler}
             packDeckCover={packDeckCover}
+            isEmptyPack={isEmptyPack}
           />
         )}
         {!isEmptyPack && !isMyPack && (
