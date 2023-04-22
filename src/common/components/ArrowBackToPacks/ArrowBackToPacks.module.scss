@@ -1,7 +1,6 @@
 @import "src/common/styles/scss/mixins";
 
 .arrow {
-    padding-left: 10%;
     cursor: pointer;
     @include fontSettings(15px, 400, 24px);
 

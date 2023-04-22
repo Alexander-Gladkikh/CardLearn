@@ -28,7 +28,7 @@ export const App = () => {
   }
 
   return (
-    <div className="App">
+    <div className={s.App}>
       <BackDrop />
       <Header />
       <RoutesPage />

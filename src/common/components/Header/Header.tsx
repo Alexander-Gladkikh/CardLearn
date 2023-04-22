@@ -31,48 +31,46 @@ export const Header = () => {
   }
 
   return (
-    <div>
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar sx={{ bgcolor: '#FCFCFC' }} position="fixed">
-          <Container maxWidth="lg">
-            <Toolbar>
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar sx={{ bgcolor: '#FCFCFC' }} position="fixed">
+        <Container maxWidth="lg">
+          <Toolbar>
+            <Typography
+              variant="h6"
+              component="div"
+              sx={{ display: 'flex', alignItems: 'center', gap: '10px', flexGrow: 1, color: 'black' }}
+            >
+              Flash Cards
+              <Avatar sx={{ width: 40, height: 40 }} src={flashLogo} alt="Flash cards logo" />
+            </Typography>
+            {isLoggedIn ? (
               <Typography
-                variant="h6"
                 component="div"
-                sx={{ display: 'flex', alignItems: 'center', gap: '10px', flexGrow: 1, color: 'black' }}
+                sx={{
+                  color: 'black',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '12px',
+                }}
               >
-                Flash Cards
-                <Avatar sx={{ width: 40, height: 40 }} src={flashLogo} alt="Flash cards logo" />
+                <span>{name}</span>
+                <Avatar
+                  sx={{ width: 36, height: 36, cursor: 'pointer' }}
+                  alt={name}
+                  src={avatar}
+                  sizes="small"
+                  onClick={clickHandler}
+                />
               </Typography>
-              {isLoggedIn ? (
-                <Typography
-                  component="div"
-                  sx={{
-                    color: 'black',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '12px',
-                  }}
-                >
-                  <span>{name}</span>
-                  <Avatar
-                    sx={{ width: 36, height: 36, cursor: 'pointer' }}
-                    alt={name}
-                    src={avatar}
-                    sizes="small"
-                    onClick={clickHandler}
-                  />
-                </Typography>
-              ) : (
-                <Button sx={common_button} variant="contained" onClick={loginHandler}>
-                  Sign In
-                </Button>
-              )}
-              <AccountMenu anchorEl={anchorEl} setAnchorEl={setAnchorEl} />
-            </Toolbar>
-          </Container>
-        </AppBar>
-      </Box>
-    </div>
+            ) : (
+              <Button sx={common_button} variant="contained" onClick={loginHandler}>
+                Sign In
+              </Button>
+            )}
+            <AccountMenu anchorEl={anchorEl} setAnchorEl={setAnchorEl} />
+          </Toolbar>
+        </Container>
+      </AppBar>
+    </Box>
   )
 }

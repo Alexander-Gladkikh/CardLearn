@@ -1,7 +1,7 @@
 @import "src/common/styles/scss/mixins";
 
 .profileWrapper {
-
+  width: 100%;
   .title {
     @include fontSettings(22px, 600, 27px)
   }
