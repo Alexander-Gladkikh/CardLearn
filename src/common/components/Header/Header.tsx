@@ -32,7 +32,7 @@ export const Header = () => {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar sx={{ bgcolor: '#FCFCFC' }} position="fixed">
+      <AppBar sx={{ bgcolor: '#FCFCFC' }} position="static">
         <Container maxWidth="lg">
           <Toolbar>
             <Typography
