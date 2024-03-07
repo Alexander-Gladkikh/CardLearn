@@ -1,3 +1,5 @@
+![flash-cards](https://user-images.githubusercontent.com/108129716/232463544-57b62b65-7f61-4b89-bdc3-dc2c6855cd06.gif)
+
 # Flash Cards
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
